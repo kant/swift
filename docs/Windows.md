@@ -110,7 +110,7 @@ cmake --build "%swift_source_dir%/build/Ninja-DebugAssert/llvm-windows-amd64"
 
 ### 7. Build Swift
 - This must be done from within a developer command prompt and could take up to two hours depending on your system.
-- You may need to adjust the SWIFT_WINDOWS_LIB_DIRECTORY parameter depending on your target platform or Windows SDK version.
+- You may need to adjust the `SWIFT_WINDOWS_LIB_DIRECTORY` parameter depending on your target platform or Windows SDK version.
 - While the commands here use MSVC to build, using clang-cl is recommended (see the **Clang-cl** section below).
 ```
 mkdir "%swift_source_dir%/build/Ninja-DebugAssert/swift-windows-amd64/ninja"
